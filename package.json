@@ -1,0 +1,21 @@
+{
+  "name": "encore-it",
+  "version": "1.0.0",
+  "description": "ENCORE IT SERVICE ASSIGNMENT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "ATIF FARUQUE",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18",
+    "validation": "^0.0.1"
+  }
+}
